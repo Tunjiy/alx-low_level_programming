@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - prints all single digit numbers of base 10 starting from 0
+ * main - prints the alphabet in reverse.
  *
- * Return: 0 on
+ * Return: 0
  */
 int main(void)
 {
-	int i = '0';
+	char c = 'z';
 
-	while (i <= '9')
+	while (c >= 'a')
 	{
-		putchar(i);
-		i++;
+		putchar(c);
+		c--;
 	}
 	putchar('\n');
 	return (0);
