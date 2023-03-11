@@ -1,1 +1,1 @@
-c programming is cool
+0x0A. C - argc, argv
