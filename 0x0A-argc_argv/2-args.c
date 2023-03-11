@@ -15,7 +15,8 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		printf("Let's see the arg = %s\n", argv[i]);
+	        printf("let's see the arg:");
+		printf("%s\n", argv[i]);
 	}
 
 	return (0);
